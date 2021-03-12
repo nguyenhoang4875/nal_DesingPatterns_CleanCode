@@ -1,0 +1,6 @@
+Git convention:
+Branch name:
+	if ticket is a feature: feature/TICKET-ID-branch_short_desc
+	if ticket is a bugfix: bugfix/TICKET-ID-branch_short_desc
+	if ticket is a hotfix: hotfix/TICKET-ID-branch_short_desc
+	

@@ -1,0 +1,165 @@
+Tuckman Model - the five stages of the team development
+
+Forming: 
+
+Storming: nỗ lực nhiều nhất
+
+Norming: 
+
+Performing: 
+
+Adjourning: 
+
+Các luật của Extreme Programming
+
+we can combine: Scrum, XP, KANBAN, UP, RUP, FDD, Crystal...
+
+Scrum:
+Transparency
+Inspection: kiểm tra lẫn nhau
+Adoptation: thích nghi
+
+
+Home work: 
+T-shirt estimation
+What is User story point, how can we caculator it?
+How to caculate vedocity. 
+Page 92 - 94.
+
+
+Architure pattern:
+peer-to-peer pattern
+
+Event driven pattern(Event-bus implementation)
+Mode-View-Controller pattern
+Flux/Redux
+React/Angular
+
+MVP 
+MVVM
+BLOC 
+VIPE-VIPER
+
+
+Design patterns
+classification of patterns:
++) Creational patterns
+	+) Factory Method 
+	+) Abstrct Factory
+	+) Builder
+	+) Prototype
+	+) Singleton
++) Structural patterns
+	+) Adapter
+	+) Bridge
+	+) Composite
+	+) Proxy
+	+) Decorate
++) Behavioral patterns
+	+) Chain of Responsitory
+	+) Command
+	+) Iterator
+
+Pattern common:
+	+) Factory Method
+	+) Abstract Factory
+	+) Builder
+	+) Singleton
+		+) Not null when getInstance()
+		+) Sequence
+		+) Multiton pattern
+	
+	
+	+) Adapter
+	+) Bridge
+	+) Composite
+	+) Decorator
+	+) Facade
+	+) Flyweight
+	+) Proxy
+	+) Chain of Responsibility
+	+) Command
+	+) Iterator
+		-) allow loop data structure can loop
+	+) Mediator
+	+) Memento
+	+) Observer
+	+) State
+	+) Strategy
+		+) Apply multiple way to implement
+	+) Template Method
+	+) Visitor
+
+
+User story: Who, what, why. 
+acception Cretaria 
+EPIC: multiple Story
+Spring goal: A short statement of what the work will be focucsed on duriing the sprint
+
+Clean code:
+
+Understandability
+Readability
+Changeability
+Extensibility
+Maintainability
+
+Clean code: 
+
+The boy Scout Rule: Always leave the code you are editing a little than you found it.
+5 step WHY
+Dependence injection
+Follow Law of Demeter. A class should know only its direct dependencies.
+DON'T TALK TO STRANGERS
+
+Be consistent. If you do something a certain way, do all similar things in the same way
+Encapsulate boundary conditions. Boundary conditions are hard to keep track of.
+Put the processing for them in one place. 
+Value Object: 
+	+) Immutability
+	+) Value Equality
+	+) Self Validation
+Name rules:
+	+) Choose descriptive and unambiguous names,
+	+) Make meaningful distinction.
+	+) User pronounceable names.
+	+) Replace magic numbers with named constants.
+	+) Avoidencodings. Don't append prefixes or type information.
+	
+Functions rules
+	+) Do one thing
+	+) Use descriptive names,
+	+) Prefer fewer arguments
+	+) Have no side effects.
+	+) Don't use flag arguments. Split method into several independent methods that 
+	can be called from the client without the flag.
+Comments rules
+	+) Always try to explain yourself in code
+	+) Don't be redundant
+	+) Don't add obvious noise
+	+) Don't use closing brace comments	
+	+) Use as clarification of code
+
+Objects and data structures
+	+) Hide internal structure
+	+) Should be small 
+	+) Do one thing
+	+) Base class should know nothing about their derivatives
+	+) Prefer non-static methods to static methods.
+	
+Tests:
+	+) One assert per test
+	+) Readable
+	+) Fast 
+	+) Independent
+	+) Repeatable
+Code smells: 
+	+) Needless complexity.
+	+) Needless Repetition
+	+) Opacity. The code is hard to understand
+	
+	
+
+
+
+
